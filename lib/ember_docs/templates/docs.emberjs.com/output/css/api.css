@@ -53,7 +53,7 @@ body {
   height: 100%;
   min-height: 100%;
   color: #444;
-  font: 12px/1.5 "Helvetica Neue", Arial, sans-serif;
+  font: 14px/1.5 Helvetica, Arial, sans-serif;
 }
 .container {
   width: 960px;
@@ -322,7 +322,7 @@ section#list header {
  .classTitle {
   font-weight: bold;
   font-size: 24px;
-  margin: 0 0 20px -20px;
+  margin: 0 0 0 -20px;
   border: 1px 0 0 solid #D7E3D1;
   background: #fff url(/img/apidocs.png) no-repeat 31px 31px;
   padding: 25px 57px 0px 65px;
@@ -343,7 +343,7 @@ section#list header {
   margin-top: 25px;
 }
 #documentation h3 {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
   margin: 10px 0;
 }
@@ -373,7 +373,9 @@ a, a:visited {
 }
 .methodname, .property {
   font-weight: bold;
-  font-size: 16px;
+  font-size: 18px;
+  color:#111;
+  text-shadow: 0px 1px 0px #ccc;
 }
 .description {
   margin-bottom: 8px;
@@ -381,7 +383,6 @@ a, a:visited {
 dt.heading {
   float: none;
   font-weight: bold;
-  font-size: 14px;
   background-image: none;
   padding-left: 0;
 }
@@ -391,7 +392,13 @@ dt, .returns dd {
   background: url(/img/docbullet.png) no-repeat left center ;
   padding-left: 10px;
 }
-dt .light {
+.parameters dt {
+  margin-left:10px;
+}
+.parameters dt.heading {
+  margin-left:0;
+}
+dt .light, dd .light {
   font-weight: bold;
 }
 dd {
@@ -399,7 +406,7 @@ dd {
   margin-left: 10px;
 }
 .parameters, .returns, .inheritsList, .detailList{
-  padding: 20px;
+  padding: 10px 15px;
   border: 1px solid #D7E3D1;
   background-color: #F0F6EC;
   margin: 10px 0 10px 0;
