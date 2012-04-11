@@ -110,7 +110,7 @@ header[role="banner"] {
 header[role="banner"] #wrapper {
   margin: 0 auto;
   position: relative;
-  width: 937px;
+  width: 960px;
 }
 
 /* #logo, */
@@ -133,13 +133,14 @@ header[role="banner"] #wrapper {
 
 [role="banner"] nav ul {
   width: 400px;
+  height: 65px;
   text-align: center;
   margin: 0 auto;
 }
 
 [role="banner"] nav li {
-  display: inline;
-  float: left;
+  display: inline-block;
+  font-size: 12px;
   line-height: 26px;
   margin: 20px 7px;
 }
