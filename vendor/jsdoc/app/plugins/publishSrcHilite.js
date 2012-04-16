@@ -41,7 +41,7 @@ function JsHilite(src, charset) {
 	this.header = '<html><head><meta http-equiv="content-type" content="text/html; charset='+charset+'"> '+
 	"<style>\n\
 	.KEYW {color: #933;}\n\
-	.COMM {color: #bbb; font-style: italic;}\n\
+	.COMM {color: #999; font-style: italic;}\n\
 	.NUMB {color: #393;}\n\
 	.STRN {color: #393;}\n\
 	.REGX {color: #339;}\n\
