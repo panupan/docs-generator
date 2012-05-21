@@ -54,7 +54,7 @@ body {
   height: 100%;
  min-height: 100%;
   color: #444;
-  font: 12px/1.5 "Helvetica Neue", Arial, sans-serif;
+  font: 12px/1.5 Lato, "Helvetica Neue", Arial, sans-serif;
 }
 .container {
   width: 960px;
@@ -156,6 +156,9 @@ html.ready header[role="banner"] {
 /* Search */
 
 #list input {
+  box-sizing:content-box;
+  -webkit-box-sizing:content-box;
+  -moz-box-sizing:content-box;
   width: 165px;
   height: 14px;
   margin-top: 13px;
